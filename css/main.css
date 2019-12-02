@@ -70,6 +70,35 @@ img {
 
 @media only screen and (min-width: 38em) {
 
+  body {
+    margin: 0;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    margin: 0;
+    width: 33.3333%;
+  }
+
+  .photo:nth-child(1) {
+    width: 100%;
+    display: block;
+  }
+
+  .photo:nth-child(2) {
+    display: inline;
+  }
+
+  .photo:nth-child(5) {
+    display: none;
+  }
+
+}
+
 }
 
 @media only screen and (min-width: 60em) {
