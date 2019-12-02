@@ -101,4 +101,32 @@ img {
 
 @media only screen and (min-width: 60em) {
 
+  body {
+    margin: 0;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    margin: 0;
+    width: 33.3%;
+  }
+
+  .photo:nth-child(1) {
+    width: 66.6666%;
+    margin: 0;
+  }
+
+  .photo:nth-child(2) {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .photo:nth-child(5) {
+    display: inline;
+  }
+
 }
